@@ -73,7 +73,7 @@ src/
 
 ## Author
 
-**Amirhosain** — Frontend Developer · Tehran
+**Amirhosain** — Frontend Developer
 
 - GitHub: [@a-pourhasan](https://github.com/a-pourhasan)
 
