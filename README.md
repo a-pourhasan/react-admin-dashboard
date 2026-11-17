@@ -1,82 +1,72 @@
-# React Admin Dashboard
+# 📊 AdminPanel — Modern React & TypeScript Admin Dashboard
 
-A modern **Admin Panel** built with React, TypeScript, and Tailwind CSS — designed as a portfolio piece for freelance and job applications.
+A clean, responsive, and modular **E-Commerce & Business Admin Dashboard** built with **React**, **TypeScript**, and **Tailwind CSS**[cite: 1, 9]. Designed to demonstrate real-world frontend architecture, interactive data visualization, theme switching, and full CRUD management workflows[cite: 1, 3, 7].
 
-![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
-![Tailwind](https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss)
+<p align="center">
+  <img src="./docs/demo//live.gif" alt="Live Demo Walkthrough" width="100%" />
+</p>
 
-## Live Demo
+---
 
-> Deploy to [Vercel](https://vercel.com) and add your link here.
+## ✨ Key Features
 
-## Demo Login
+- **🔐 Authentication Flow:** Dedicated Sign-In view with pre-filled demo credentials (`demo@admin.com` / `admin123`) and protected dashboard routing.
+- **🌗 Dark & Light Mode:** Seamless theme toggling across the entire application (persisted via user settings and top-bar switcher)[cite: 1, 2, 6].
+- **📈 Interactive Analytics & KPIs:** Real-time overview cards (Revenue, Orders, Customers, Products) with monthly trend indicators, revenue area charts, and category sales bar charts[cite: 1].
+- **👥 User & Role Management:** Searchable, paginated user directory with role badges (`Admin`, `Editor`, `Viewer`), account statuses (`Active`, `Pending`, `Inactive`), and user creation/deletion actions[cite: 7].
+- **📦 Product & Inventory Catalog:** Card-based product grid featuring instant search, category filtering, pricing, and stock status indicators (`In Stock`, `Low Stock`, `Out Of Stock`)[cite: 5].
+- **🛒 Order Tracking:** Detailed order history table displaying order IDs, customer details, totals, dates, and color-coded status badges (`Completed`, `Shipped`, `Processing`, `Cancelled`)[cite: 4].
+- **⚙️ Account & System Settings:** Profile management, theme preferences, and granular notification toggles (Email, Push, Weekly Reports)[cite: 6].
+- **📱 Collapsible & Responsive Layout:** Adaptive sidebar navigation that collapses cleanly for maximum workspace efficiency[cite: 1, 2].
 
-| Field    | Value            |
-| -------- | ---------------- |
-| Email    | `demo@admin.com` |
-| Password | `admin123`       |
+---
 
-## Features
+## 🛠️ Tech Stack
 
-- **Authentication** — Protected routes with Zustand + persisted session
-- **Dashboard** — KPI cards, revenue area chart, category bar chart, recent orders table
-- **Users** — Search, pagination, delete confirmation modal
-- **Products** — Grid layout with category filter and stock status badges
-- **Orders** — Full order history table
-- **Settings** — Profile form (React Hook Form + Zod), theme toggle, notification toggles
-- **Dark mode** — Light/dark theme with persistence
-- **Responsive** — Collapsible sidebar, mobile-friendly layout
+- **Frontend:** React, TypeScript[cite: 1, 9]
+- **Styling:** Tailwind CSS (Dark/Light theming)[cite: 1, 2]
+- **Data Visualization:** Responsive Area & Bar Charts[cite: 1]
+- **Icons:** Lucide React
 
-## Tech Stack
+---
 
-| Tool | Purpose |
-| ---- | ------- |
-| [Vite](https://vitejs.dev) | Build tool |
-| [React Router](https://reactrouter.com) | Client-side routing |
-| [TanStack Query](https://tanstack.com/query) | Server state & mock API |
-| [Zustand](https://zustand.docs.pmnd.rs) | Auth & theme state |
-| [React Hook Form](https://react-hook-form.com) + [Zod](https://zod.dev) | Form validation |
-| [Recharts](https://recharts.org) | Charts |
-| [Lucide React](https://lucide.dev) | Icons |
-| [Tailwind CSS v4](https://tailwindcss.com) | Styling |
+## 📸 Screenshots
 
-## Getting Started
+### Dashboard (Dark & Light Themes)
 
-```bash
-npm install
-npm run dev
-```
+|                                Dark Mode                                 |                                   Light Mode                                    |
+| :----------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
+| <img src="./dosc/Screenshots/dashboard.jpg" alt="Dashboard Dark Mode" /> | <img src="./dosc/Screenshots/dashboard-light.jpg" alt="Dashboard Light Mode" /> |
 
-Open [http://localhost:5173](http://localhost:5173)
+### Application Views
 
-## Scripts
+|                         Users Management                          |                          Products Inventory                          |
+| :---------------------------------------------------------------: | :------------------------------------------------------------------: |
+| <img src="./dosc/Screenshots/users.jpg" alt="Users Management" /> | <img src="./dosc/Screenshots/products.jpg" alt="Products Catalog" /> |
 
-| Command         | Description          |
-| --------------- | -------------------- |
-| `npm run dev`   | Start dev server     |
-| `npm run build` | Production build     |
-| `npm run preview` | Preview production |
+|                          Orders History                          |                      Settings & Preferences                      |
+| :--------------------------------------------------------------: | :--------------------------------------------------------------: |
+| <img src="./dosc/Screenshots/orders.jpg" alt="Orders History" /> | <img src="./dosc/Screenshots/setting.jpg" alt="Settings Page" /> |
 
-## Project Structure
+### Authentication
 
-```
-src/
-├── api/          # Mock API & data
-├── components/   # UI, layout, charts
-├── pages/        # Route pages
-├── routes/       # Router & guards
-├── store/        # Zustand stores
-├── types/        # TypeScript types
-└── lib/          # Utilities
-```
+<p align="center">
+  <img src="./dosc/Screenshots/login.jpg" alt="Login Screen" width="80%" />
+</p>
 
-## Author
+---
 
-**Amirhosain** — Frontend Developer · Tehran
+## 🚀 Getting Started
 
-- GitHub: [@a-pourhasan](https://github.com/a-pourhasan)
+### Prerequisites
 
-## License
+- Node.js (v18+ recommended)
+- npm or yarn
 
-MIT
+### Installation & Local Development
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/a-pourhasan/react-admin-dashboard.git](https://github.com/a-pourhasan/react-admin-dashboard.git)
+   cd react-admin-dashboard
+   ```
