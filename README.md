@@ -3,7 +3,7 @@
 A clean, responsive, and modular **E-Commerce & Business Admin Dashboard** built with **React**, **TypeScript**, and **Tailwind CSS**[cite: 1, 9]. Designed to demonstrate real-world frontend architecture, interactive data visualization, theme switching, and full CRUD management workflows[cite: 1, 3, 7].
 
 <p align="center">
-  <img src="./docs/demo//live.gif" alt="Live Demo Walkthrough" width="100%" />
+  <img src="./docs/demo/live.gif" alt="Live Demo Walkthrough" width="100%" />
 </p>
 
 ---
@@ -36,22 +36,22 @@ A clean, responsive, and modular **E-Commerce & Business Admin Dashboard** built
 
 |                                Dark Mode                                 |                                   Light Mode                                    |
 | :----------------------------------------------------------------------: | :-----------------------------------------------------------------------------: |
-| <img src="./dosc/Screenshots/dashboard.jpg" alt="Dashboard Dark Mode" /> | <img src="./dosc/Screenshots/dashboard-light.jpg" alt="Dashboard Light Mode" /> |
+| <img src="./docs/screenshots/dashboard.jpg" alt="Dashboard Dark Mode" /> | <img src="./docs/screenshots/dashboard-light.jpg" alt="Dashboard Light Mode" /> |
 
 ### Application Views
 
 |                         Users Management                          |                          Products Inventory                          |
 | :---------------------------------------------------------------: | :------------------------------------------------------------------: |
-| <img src="./dosc/Screenshots/users.jpg" alt="Users Management" /> | <img src="./dosc/Screenshots/products.jpg" alt="Products Catalog" /> |
+| <img src="./docs/screenshots/users.jpg" alt="Users Management" /> | <img src="./docs/screenshots/products.jpg" alt="Products Catalog" /> |
 
 |                          Orders History                          |                      Settings & Preferences                      |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| <img src="./dosc/Screenshots/orders.jpg" alt="Orders History" /> | <img src="./dosc/Screenshots/setting.jpg" alt="Settings Page" /> |
+| <img src="./docs/screenshots/orders.jpg" alt="Orders History" /> | <img src="./docs/screenshots/setting.jpg" alt="Settings Page" /> |
 
 ### Authentication
 
 <p align="center">
-  <img src="./dosc/Screenshots/login.jpg" alt="Login Screen" width="80%" />
+  <img src="./docs/screenshots/login.jpg" alt="Login Screen" width="80%" />
 </p>
 
 ---
